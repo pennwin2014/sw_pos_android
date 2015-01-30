@@ -1,0 +1,20 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="btn_light_blue">#5bc0de</color>
+    <color name="light_gray">#ffa2a2a2</color>
+    <color name="light_blue">#7899c4</color>
+    <color name="light_yellow">#e1cb28</color>
+    <color name="light_yellow_2">#ffffe928</color>
+    <color name="light_black">#424652</color>
+    <color name="white_gray">#f9f9f9</color>
+    <color name="orange">#FD7201</color>
+    <color name="black">#000</color>
+    <color name="dark_blue">#0E1C36</color>
+    <color name="lit_light_gray">#23292E</color>
+    <color name="light_gray_white">#EEEEEE</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+</resources>

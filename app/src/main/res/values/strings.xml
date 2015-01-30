@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sw_pos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_saoma">扫码</string>
+    <string name="scan_text">将二维码或条码放入框内完成扫描</string>
+    <string name="home_back">返回</string>
+</resources>

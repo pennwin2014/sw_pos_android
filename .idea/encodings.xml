@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/app/libs/commons-codec-1.5.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/libs/gson-2.3.1.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/libs/jersey-bundle-1.18.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/libs/nineoldandroids-2.4.0.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/bean/EleBillBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/bean/KeyValueBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/bean/RegistRetBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/bean/RetCodeMsgBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/bean/RoomElecfeeBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/bean/SchoolAreaBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/httpconnection/TransResp.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/httpjersey/AndroidServiceIteratorProvider.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/httpjersey/Callback.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/httpjersey/CommunicateClient.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/httpjersey/GetTask.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/httpjersey/NetworkHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/httpjersey/PostTask.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/util/BrightnessSetUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/util/CommonUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/util/Constants.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/util/DeviceUuidFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/util/InputModeBug.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/util/QRCodeUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/util/SystemUiHider.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/util/SystemUiHiderBase.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/supwisdom/penn/sw_pos/util/SystemUiHiderHoneycomb.java" charset="UTF-8" />
+  </component>
+</project>
+
