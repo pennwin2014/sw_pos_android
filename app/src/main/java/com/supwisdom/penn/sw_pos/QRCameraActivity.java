@@ -140,15 +140,15 @@ public class QRCameraActivity extends Activity implements Callback, View.OnClick
             return;
         }
         Toast.makeText(QRCameraActivity.this, "扫描结果："+resultString, Toast.LENGTH_SHORT).show();
-        Intent resultIntent = new Intent();
+        /*Intent resultIntent = new Intent();
         Bundle bundle = new Bundle();
         bundle.putString("result", resultString);
         bundle.putParcelable("bitmap", bitmap);
         resultIntent.putExtras(bundle);
-        this.setResult(RESULT_OK, resultIntent);
-        Intent intent_main = new Intent(this, MainActivity.class);
+        //this.setResult(RESULT_OK, resultIntent);*/
+        Intent intent_main = new Intent();
         intent_main.putExtra("barcode", resultString);
-        setResult(1, intent_main);
+        this.setResult(1, intent_main);
         QRCameraActivity.this.finish();
     }
 

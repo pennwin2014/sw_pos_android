@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -47,8 +48,7 @@ public class MainActivity extends ActionBarActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
-        }
-        if(id==R.id.action_saoma){
+        }else if(id==R.id.action_saoma){
             return true;
         }
         return super.onOptionsItemSelected(item);
@@ -59,19 +59,26 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         int ret;
-        //表示收到二维码扫描的结果
+        //1 表示收到二维码扫描的结果
+        Log.d("resultCode",String.valueOf(resultCode));
         if(resultCode == 1){
             String barcode = data.getStringExtra("barcode");
+            Log.d("barcode",barcode);
             int amount = Integer.valueOf(edt_amount.getText().toString());
-            ret = online_consume.online_pay(barcode, amount);
-            if(ret!=0) {
+            /*
+            online_consume http_sender = new online_consume();
+            ret = http_sender.online_pay(barcode, amount);
+            */
+            online_consume onlineConsume = new online_consume(this);
+            onlineConsume.online_payinit(barcode,amount);
+            //ret = online_consume.online_pay(barcode, amount);
+          /*  if(ret!=0) {
                 new AlertDialog.Builder(this).setTitle("树维pos").setMessage("消费失败!!")
                         .setPositiveButton("确定", null).show();
-            }
-            else if(0 == ret) {
+            }else if(0 == ret){
                 new AlertDialog.Builder(this).setTitle("树维pos").setMessage("消费成功!!")
                         .setPositiveButton("确定", null).show();
-            }
+            }*/
         }
         super.onActivityResult(requestCode, resultCode, data);
     }
